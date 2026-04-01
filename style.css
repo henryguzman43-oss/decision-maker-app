@@ -1,1 +1,39 @@
+body {
+text-align: center;
+font-family: Arial bold, sans-serif;
+background-color: #923ed6;
+color: #ffffff;
+padding: 20px;}
 
+
+button {
+  background: #ff9966;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  font-weight: bold;
+  padding: 25px 200px;
+  cursor: pointer;
+  justify-content: center;
+  display : block;
+  margin : 0 auto;
+  margin-bottom: 20em;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+  button {
+    padding: 15px 100px;
+  }
+
+
+  }
